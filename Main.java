@@ -5,24 +5,24 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a name :");
-        String name = scanner.next();
+        String name = scanner.nextLine();
 
         System.out.print("Enter a place :");
-        String place = scanner.next();
+        String place = scanner.nextLine();
 
         System.out.print("Enter a noun (Thing) :");
-        String noun = scanner.next();
+        String noun = scanner.nextLine();
 
         System.out.print("Enter a verb (action) :");
-        String verb = scanner.next();
+        String verb = scanner.nextLine();
 
         System.out.print("Enter an adjective (describing word) :");
-        String adjective = scanner.next();
+        String adjective = scanner.nextLine();
 
         System.out.print("Enter an animal :");
-        String animal = scanner.next();
+        String animal = scanner.nextLine();
 
-        System.out.println("One day, " +name+ "was walking through " +place+ "holding a" +noun+  ".");
+        System.out.println("One day, " +name+ " was walking through " +place+ "holding a" +noun+  ".");
         System.out.println("Suddenly," +adjective+ " " +animal+   " appeared out of nowhere!");
         System.out.println("Without thinking," +name+ " decided to " +verb+  " the " +animal+ ".");
         System.out.println("The " +animal+  " looked surprised, grabbed the " +noun+ ", and ran away yelling,");
